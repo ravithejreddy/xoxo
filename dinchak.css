@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  /*background-image: url('https://unsplash.imgix.net/18/hazy-water.JPG');*/
+  background-color: lightsteelblue;
+  margin:0 0 auto;
+}
+
+.nine-boxes{
+  display: block;
+  border: 1px solid black;
+  width: 33.33333%;
+  height: 270px;
+  margin-top: 10px;
+  margin-left: 33.33333%;
+  margin-right: 33.33333%;
+  margin-bottom: 20px;
+  /*position: relative;*/
+}
+.heading {
+  width: 100%;
+  /*height: 40px;*/
+  margin-top: 2.5%;
+  margin-right: 33%
+  margin-bottom: 5%;
+  /*margin-left: 33%*/
+  /*height: 30px;*/
+  color: #F8F8F8 ;
+  /*background-image: url('https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSCkPtvVWzGijzKRSwO5TQKCVAjJK9K088ovsBbfC4gnp0x7Bi0rg');*/
+  background-color: steelblue;
+  text-align: center;
+  text-decoration: underline;
+  padding: 3px 6px 10px 6px;
+}
+
+.player-turn {
+  display: inline-block;
+  vertical-align: top;
+  width:33.333%;
+  color: navy;
+  height: 90px;
+  border: 1px solid steelblue;
+  margin:0 10;
+  text-align: center;
+  line-height: 100px;
+}
+
+.disable {
+  pointer-events: none;
+}
+
+#start-game {
+  background-color: steelblue;
+  color: white;
+  border: 1px solid black;
+  width: 33.333%;
+  height: 50px;
+  margin-left: 33.3333%;
+  margin-right: 33%
+  padding: 3 6 3 6;
+}
+
+#display-result{
+  border:1px solid black;
+  height: 40px;
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%
+  text-align: center;
+  padding: 3 6 3 6;
+
+}
+
+.choice {
+  background-color: steelblue;
+  color: white;
+  border: 1px solid black;
+  width: 20%;
+  height: 30px;
+  margin-left: 40%;
+  margin-right:40%
+  margin-bottom: 30%
+  padding: 3 6 3 6;
+}
+.player-choice{
+  display: block;
+  color: steelblue ;
+  width : 400px;
+  height: 20px;
+  margin-top: 15px;
+  margin-left: 45%;
+
+}
