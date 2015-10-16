@@ -29,6 +29,7 @@ body {
   color: #F8F8F8 ;
   /*background-image: url('https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSCkPtvVWzGijzKRSwO5TQKCVAjJK9K088ovsBbfC4gnp0x7Bi0rg');*/
   background-color: steelblue;
+  font-style: italic ;
   text-align: center;
   text-decoration: underline;
   padding: 3px 6px 10px 6px;
